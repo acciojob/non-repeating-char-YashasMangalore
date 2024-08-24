@@ -12,6 +12,7 @@ function firstNonRepeatedChar(str) {
 		if(freq[ch]===1)
 			return ch;
 	}
+	return null;
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
